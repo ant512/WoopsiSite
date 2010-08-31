@@ -9,13 +9,13 @@
 		<div id="container">
 			<div id="top" class="darkblue">
 				<div id="header">
-					<img src="img/logo.png">
+					<a href="http://woopsi.org"><img src="img/logo.png"></a>
 					<? include("navigation.php"); ?>
 				</div>
 			</div>
 			<div id="content">
 				<div id="download">
-					<a class="button lightgrey" href="downloads/woopsi.zip"><img src="img/zip.png">Download Woopsi</a>
+					<a class="button lightgrey" href="downloads/woopsi-src-0.99.3.zip"><img src="img/zip.png">Download Woopsi</a>
 				</div>
 			</div>
 			<div id="footer">

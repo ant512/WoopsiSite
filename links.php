@@ -9,7 +9,7 @@
 		<div id="container">
 			<div id="top" class="darkblue">
 				<div id="header">
-					<img>
+					<a href="http://woopsi.org"><img src="img/logo.png"></a>
 					<? include("navigation.php"); ?>
 				</div>
 			</div>
