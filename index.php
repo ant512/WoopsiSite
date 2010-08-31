@@ -18,7 +18,7 @@
 					GUI framework for Nintendo DS homebrew applications.
 				</div>
 				<div id="download">
-					<a class="button lightgrey" href="downloads/woopsi.zip"><img src="img/zip.png"style="position: relative; top: 30">Download Woopsi</a>
+					<a class="button lightgrey" href="downloads/woopsi.zip"><img src="img/zip.png">Download Woopsi</a>
 				</div>
 			</div>
 			<div id="footer">

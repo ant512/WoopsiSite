@@ -10,18 +10,15 @@ a {
 
 #container {
 	width: 100%;
-	border: 0px solid #DDDDDD;
 	background-color: #0051EB;
 }
 
 #top {
 	height: 250px;
-	clear: both;
 }
 
 #header {
 	height: 250px;
-	
 	clear: both;
 }
 
@@ -30,25 +27,26 @@ a {
 }
 
 #header ul {
+	padding: 10px;
+	margin: 10px;
 	height: 50px;
 	text-align: center;
 }
 
-#header li {
+#header ul li {
 	list-style: none;
 	display: inline;
 	padding: 0px 10px 0px 10px;
 }
 
-#header li a {
+#header ul li a {
 	text-decoration: none;
 	color: white;
 	text-shadow: black 0px 3px 3px;
 	position: relative;
 }
 
-#header li a:hover {
-	/*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
+#header ul li a:hover {
 	text-shadow: black 0px 5px 3px;
 	top: -1px;
 }
@@ -65,14 +63,12 @@ a {
 
 #footer {
 	height: 80px;
-	/*background: rgba(10, 10, 10, 0.2);*/
 	background: black;
 	background: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#000));
 	background: -moz-linear-gradient(top, #191919, #000);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919", endColorstr="#000");
 	border-top: 1px solid rgba(10, 10, 10, 0.2);
 	margin-top: 10px;
-	color: white;
 	clear: both;
 	width: 100%;
 	font-size: 0.8em;
@@ -107,10 +103,19 @@ a {
 
 #download a {
 	padding: 20px;
+	color: black;
+	-webkit-transition: color .25s linear;
+	-moz-transition: color .25s linear;
+	transition: color .25s linear;
 }
 
 #download a:hover {
 	color: white;
+}
+
+#download img {
+	position: relative;
+	top: 30px;
 }
 
 .projects div img {
@@ -127,8 +132,8 @@ a {
 }
 
 .darkblue {
-    color:#fff;
-    background:#01077E;
+    color: #fff;
+    background: #01077E;
     background: -webkit-gradient(linear, left top, left bottom, from(#01077E), to(#0051EB));
     background: -moz-linear-gradient(top, #01077E, #0051EB);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01077E", endColorstr="#0051EB");
@@ -136,7 +141,7 @@ a {
 
 .darkgrey {
     color:#fff;
-    background:#363636;
+    background: #363636;
     background: -webkit-gradient(linear, left top, left bottom, from(#363636), to(#252525));
     background: -moz-linear-gradient(top, #363636, #252525);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#363636", endColorstr="#252525");
@@ -144,13 +149,11 @@ a {
 
 .lightgrey {
     color:#000;
-    background:#E1E1E1;
+    background: #E1E1E1;
     background: -webkit-gradient(linear, left top, left bottom, from(#E1E1E1), to(#B8B8B8));
     background: -moz-linear-gradient(top, #E1E1E1, #B8B8B8);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E1E1E1", endColorstr="#B8B8B8");
 }
-
-
 
 .button {
 	padding:10px 20px 10px 20px;
