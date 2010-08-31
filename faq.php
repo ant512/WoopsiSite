@@ -14,8 +14,12 @@
 				</div>
 			</div>
 			<div id="content">
+				<h1>FAQ</h1>
+				<p>Some text.</p>
 			</div>
-			<div id="footer"></div>
+			<div id="footer">
+				<? include("footer.php"); ?>
+			</div>
 		</div>
 	</body>
 </html>
