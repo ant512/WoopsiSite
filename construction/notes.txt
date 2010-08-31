@@ -1,0 +1,11 @@
+1) A news section (where release of libwoopsi and co appears) 
+2) Link to the online doxygene documentation 
+3) Links to the repositories and if possible to .zip archives 
+4) Links to the ported libs (I can host those) 
+4) A faq 
+5) link towards your blog 
+6) links for developpers towards site of interests (nintendo/librry documentation) like these : 
+http://chishm.drunkencoders.com/libfat/ 
+http://libnds.devkitpro.org/ 
+http://blea.ch/wiki/index.php/Nitrofs 
+http://desmume.org/ 
