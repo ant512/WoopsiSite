@@ -9,14 +9,11 @@
 		<div id="container">
 			<div id="top" class="darkblue">
 				<div id="header">
-					<img>
+					<img src="img/logo.png">
 					<? include("navigation.php"); ?>
 				</div>
 			</div>
 			<div id="content">
-				<div id="about">
-					GUI framework for Nintendo DS homebrew applications.
-				</div>
 				<div id="download">
 					<a class="button lightgrey" href="downloads/woopsi.zip"><img src="img/zip.png">Download Woopsi</a>
 				</div>

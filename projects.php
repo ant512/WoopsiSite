@@ -9,7 +9,7 @@
 		<div id="container">
 			<div id="top" class="darkblue">
 				<div id="header">
-					<img>
+					<img src="img/logo.png">
 					<? include("navigation.php"); ?>
 				</div>
 			</div>
