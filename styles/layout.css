@@ -1,6 +1,6 @@
 body {
 	font-family: arial, sans-serif;
-	background-color: #0051EB;
+	background-color: black;
 	color: white;
 }
 
@@ -11,6 +11,7 @@ a {
 #container {
 	width: 100%;
 	border: 0px solid #DDDDDD;
+	background-color: #0051EB;
 }
 
 #top {
@@ -64,16 +65,23 @@ a {
 
 #footer {
 	height: 80px;
-	background: rgba(10, 10, 10, 0.2);
-	border-bottom: 1px solid rgba(10, 10, 10, 0.2);
+	/*background: rgba(10, 10, 10, 0.2);*/
+	background: black;
+	background: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#000));
+	background: -moz-linear-gradient(top, #191919, #000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919", endColorstr="#000");
 	border-top: 1px solid rgba(10, 10, 10, 0.2);
 	margin-top: 10px;
 	color: white;
 	clear: both;
 	width: 100%;
+	font-size: 0.8em;
+	text-align: center;
+	color: #aaaaaa;
+	padding-top: 10px;
 }
 
-#content div {
+#content div.rounded {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -83,6 +91,26 @@ a {
 	padding: 0px 10px 10px 10px;
 	background: rgba(10, 10, 10, 0.2);
 	clear: both;
+}
+
+#about {
+	text-align: center;
+	border: 0px;
+	clear: both;
+	font-weight: bold;
+}
+
+#download {
+	clear: both;
+	text-align: center;
+}
+
+#download a {
+	padding: 20px;
+}
+
+#download a:hover {
+	color: white;
 }
 
 .projects div img {
@@ -130,7 +158,7 @@ a {
 	font-size:18px;
 	font-weight:bold;
 	margin-right:0px;
-	text-shadow: 0 1px 1px rgba(255,255,255,1);
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 
 	-webkit-border-radius: 8px;
 	-webkit-border-radius: 8px;

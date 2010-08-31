@@ -15,7 +15,9 @@
 			</div>
 			<div id="content">
 			</div>
-			<div id="footer"></div>
+			<div id="footer">
+				<? include("footer.php"); ?>
+			</div>
 		</div>
 	</body>
 </html>

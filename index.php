@@ -14,8 +14,16 @@
 				</div>
 			</div>
 			<div id="content">
+				<div id="about">
+					GUI framework for Nintendo DS homebrew applications.
+				</div>
+				<div id="download">
+					<a class="button lightgrey" href="downloads/woopsi.zip"><img src="img/zip.png"style="position: relative; top: 30">Download Woopsi</a>
+				</div>
 			</div>
-			<div id="footer"></div>
+			<div id="footer">
+				<? include("footer.php"); ?>
+			</div>
 		</div>
 	</body>
 </html>

@@ -14,12 +14,14 @@
 				</div>
 			</div>
 			<div id="content">
-				<div>
+				<div class="rounded">
 					<p>31/08/2010 - New Website</p>
 					<p>Website work-in-progress.</p>
 				</div>
 			</div>
-			<div id="footer"></div>
+			<div id="footer">
+				<? include("footer.php"); ?>
+			</div>
 		</div>
 	</body>
 </html>
