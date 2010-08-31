@@ -10,15 +10,7 @@
 			<div id="top" class="darkblue">
 				<div id="header">
 					<img>
-					<ul>
-						<li><a href="news.html">News</a></li>
-						<li><a href="documentation.html">Documentation</a></li>
-						<li><a href="download.html">Download</a></li>
-						<li><a href="http://bitbucket.org/ant512/woopsi">Source</a></li>
-						<li><a href="faq.html">FAQ</a></li>
-						<li><a href="http://ant.simianzombie.com">Blog</a></li>
-						<li><a href="links.html">Links</a></li>
-					</ul>
+					<? include("navigation.php"); ?>
 				</div>
 			</div>
 			<div id="content">
