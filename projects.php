@@ -13,7 +13,33 @@
 					<? include("navigation.php"); ?>
 				</div>
 			</div>
-			<div id="content">
+			<div id="content" class="projects">
+				<div>
+					<p>DS-HPCalc</p>
+					<p><img src="img/projects/ds-hpcalc.png">DS-HPCALC is a project to port the <a href="http://nonpareil.brouhaha.com">Nonpareil</a> calculator emulators, originally written by Eric Smith, to the Nintendo DS Lite.</p>
+					
+					<p><a href="http://ds-hpcalc.sourceforge.net">http://ds-hpcalc.sourceforge.net</a></p>
+				</div>
+				<div>
+					<p>EigenmathDS</p>
+					<p><img src="img/projects/eigenmathds.jpg">Eigenmath DS is a free computer algebra system ported to Nintendo DS. The aim of this project is to have a free CAS comparable to commercial systems such as Texas Instruments or HP calculators.  The GUI is made with woopsi 0.3.</p>
+					<p><a href="http://sourceforge.net/projects/eigenmatds">http://sourceforge.net/projects/eigenmatds</a></p>
+				</div>
+				<div>
+					<p>FileNinja</p>
+					<p>An FTP client for the Nintendo DS, using the Woopsi GUI development system.</p>
+					<p><a href="http://sourceforge.net/projects/fileninja">http://sourceforge.net/projects/fileninja</a></p>
+				</div>
+				<div>
+					<p>Cube-DS</p>
+					<p>A 3D, touchscreen controlled Rubik's Cube game for the Nintendo DS.  The emphasis in this project is on features and functionality, rather than graphics.</p>
+					<p><a href="http://code.google.com/p/cube-ds">http://code.google.com/p/cube-ds</a></p>
+				</div>
+				<div>
+					<p>KnowledgeSageDS</p>
+					<p><img src="img/projects/knowledgesageds.jpg">A program that brings the D&D SRD3.5 database to the DS in an easy to search format.</p>
+					<p><a href="http://sourceforge.net/projects/knowledgesageds">http://sourceforge.net/projects/knowledgesageds</a></p>
+				</div>
 			</div>
 			<div id="footer"></div>
 		</div>

@@ -14,6 +14,10 @@
 				</div>
 			</div>
 			<div id="content">
+				<div>
+					<p>31/08/2010 - New Website</p>
+					<p>Website work-in-progress.</p>
+				</div>
 			</div>
 			<div id="footer"></div>
 		</div>
