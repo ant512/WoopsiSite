@@ -1,3 +1,21 @@
+<?
+function ListThumbnails($directory, $scale) {
+
+	if ($handle = opendir($directory)) {
+		while (false !== ($file = readdir($handle))) {
+			if ($file == '.') continue;
+			if ($file == '..') continue;
+			
+	        echo "<img src=\"thumbnail.php?name=$directory$file&scale=$scale\">";
+	    }
+	
+	    closedir($handle);
+	} else {
+		echo "Cannot open directory $directory";
+	}
+}
+?>
+
 <html>
 	<head>
 		<title>Woopsi - Screenshots</title>
@@ -13,13 +31,10 @@
 					<? include("navigation.php"); ?>
 				</div>
 			</div>
-			<div id="content">
-				<img src="img/screenshots/bitmapdrawing.png">
-				<img src="img/screenshots/calendar.png">
-				<img src="img/screenshots/dimmedscreen.png">
-				<img src="img/screenshots/fire.png">
-				<img src="img/screenshots/keyboard.png">
-				<img src="img/screenshots/packedfonts.png">
+			<div id="content" class="screenshots">
+				<?
+					ListThumbnails("img/screenshots/", 100);
+				?>
 			</div>
 			<div id="footer">
 				<? include("footer.php"); ?>

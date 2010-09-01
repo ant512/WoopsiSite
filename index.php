@@ -15,7 +15,15 @@
 			</div>
 			<div id="content">
 				<div id="download">
-					<a class="button lightgrey" href="downloads/woopsi-src-0.99.3.zip"><img src="img/zip.png">Download Woopsi</a>
+					<div>
+						<a class="button lightgrey" href="downloads/woopsi-src-0.99.3.zip"><img src="img/zip.png">Download Woopsi</a>
+					</div>
+					<div>
+						<a class="button lightgrey" href="downloads/"><img src="img/ds.png">Download DS Demo</a>
+					</div>
+					<div>
+						<a class="button lightgrey" href="downloads/"><img src="img/imac.png">Download OSX Version</a>
+					</div>
 				</div>
 			</div>
 			<div id="footer">

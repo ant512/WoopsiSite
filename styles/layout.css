@@ -113,6 +113,14 @@ a {
 	top: 30px;
 }
 
+#download div {
+	margin-bottom: 50px;
+}
+
+.screenshots img {
+	margin: 5px;
+}
+
 .projects div img {
 	float: right;
 	margin: 0px 0px 10px 10px;
