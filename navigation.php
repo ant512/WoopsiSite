@@ -1,5 +1,4 @@
 					<ul>
-						<li><a href="news.php">News</a></li>
 						<li><a href="docs/index.html">Documentation</a></li>
 						<li><a href="screenshots.php">Screenshots</a></li>
 						<li><a href="http://bitbucket.org/ant512/woopsi">Source</a></li>
