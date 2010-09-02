@@ -25,7 +25,7 @@ function ListThumbnails($directory, $scale) {
 
 	<body>
 		<div id="container">
-			<div id="top" class="darkblue">
+			<div id="top">
 				<div id="header">
 					<a href="http://woopsi.org"><img src="img/logo.png"></a>
 					<? include("navigation.php"); ?>
