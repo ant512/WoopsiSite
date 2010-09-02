@@ -82,6 +82,11 @@ a {
 	padding-top: 10px;
 }
 
+#footer p {
+	padding: 2px 0px 10px 0px;
+	margin: 0px;
+}
+
 #content div.rounded {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	-webkit-border-radius: 5px;
