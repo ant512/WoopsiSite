@@ -6,7 +6,7 @@ function ListThumbnails($directory, $scale) {
 			if ($file == '.') continue;
 			if ($file == '..') continue;
 			
-	        echo "<img src=\"thumbnail.php?name=$directory$file&scale=$scale\">";
+	        echo "<img src=\"thumbnail.php?name=$directory$file&amp;scale=$scale\" alt=\"$file\" title=\"$file\">";
 	    }
 	
 	    closedir($handle);
@@ -16,11 +16,13 @@ function ListThumbnails($directory, $scale) {
 }
 ?>
 
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Woopsi - Screenshots</title>
 		<link rel="stylesheet" type="text/css" href="styles/cssreset.css">
 		<link rel="stylesheet" type="text/css" href="styles/layout.css">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	</head>
 
 	<body>

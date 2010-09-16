@@ -1,15 +1,17 @@
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Woopsi - Home</title>
 		<link rel="stylesheet" type="text/css" href="styles/cssreset.css">
 		<link rel="stylesheet" type="text/css" href="styles/layout.css">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	</head>
 
 	<body>
 		<div id="container">
 			<div id="top">
 				<div id="header">
-					<a href="http://woopsi.org"><img src="img/logo.png"></a>
+					<a href="http://woopsi.org"><img src="img/logo.png" alt="Woopsi" title="Woopsi"></a>
 					<? include("navigation.php"); ?>
 				</div>
 			</div>
