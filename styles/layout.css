@@ -16,11 +16,11 @@ a {
 #top {
 	height: 250px;
 	
-    color: #fff;
-    background: #01077E;
-    background: -webkit-gradient(linear, left top, left bottom, from(#01077E), to(#0051EB));
-    background: -moz-linear-gradient(top, #01077E, #0051EB);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01077E", endColorstr="#0051EB");
+	color: #fff;
+	background: #01077E;
+	background: -webkit-gradient(linear, left top, left bottom, from(#01077E), to(#0051EB));
+	background: -moz-linear-gradient(top, #01077E, #0051EB);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01077E", endColorstr="#0051EB");
 }
 
 #header {
@@ -71,7 +71,7 @@ a {
 	background: black;
 	background: -webkit-gradient(linear, left top, left bottom, from(#191919), to(#000));
 	background: -moz-linear-gradient(top, #191919, #000);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919", endColorstr="#000");
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919", endColorstr="#000");
 	border-top: 1px solid rgba(10, 10, 10, 0.2);
 	margin-top: 10px;
 	clear: both;
@@ -135,17 +135,17 @@ a {
 }
 
 .projects div:after {
-    content:"";
-    clear:both;
-    display:block;
+	content:"";
+	clear:both;
+	display:block;
 }
 
 .lightgrey {
-    color:#000;
-    background: #E1E1E1;
-    background: -webkit-gradient(linear, left top, left bottom, from(#E1E1E1), to(#B8B8B8));
-    background: -moz-linear-gradient(top, #E1E1E1, #B8B8B8);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E1E1E1", endColorstr="#B8B8B8");
+	color:#000;
+	background: #E1E1E1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E1E1E1), to(#B8B8B8));
+	background: -moz-linear-gradient(top, #E1E1E1, #B8B8B8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E1E1E1", endColorstr="#B8B8B8");
 }
 
 .button {
