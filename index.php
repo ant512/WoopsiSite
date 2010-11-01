@@ -25,7 +25,7 @@
 			<div id="content" class="download">
 				<a class="button lightgrey" href="downloads/woopsi-src-0.99.6.zip">Download Woopsi</a>
 				<a class="button lightgrey" href="downloads/woopsi-demo-0.99.6.zip">Download DS Demo</a>
-				<a class="button lightgrey" href="downloads/woopsi-sdl-xcode-0.99.5.zip">Download OSX Version</a>
+				<a class="button lightgrey" href="downloads/woopsi-sdl-xcode-0.99.6.zip">Download OSX Version</a>
 			</div>
 			<div id="footer">
 				<? include("footer.php"); ?>
