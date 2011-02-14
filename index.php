@@ -7,9 +7,13 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"></meta>
 		<script src="javascript/jquery-1.4.2.min.js"></script>
 		<script>
+			var news = "";
+
 			$(document).ready(function() {
-				$('#container').before($('<div class="news" style="display: none">Latest news: Woopsi 1.0 released!</div>'));
-				$('.news').slideDown('slow');
+				if (news != "") {
+					$('#container').before($('<div class="news" style="display: none">' + news + '</div>'));
+					$('.news').slideDown('slow');
+				}
 			});
 		</script>
 	</head>
