@@ -29,7 +29,7 @@
 			<div id="content" class="download">
 				<a class="button lightgrey" href="downloads/woopsi-nds-1.1.zip">Download Woopsi</a>
 				<a class="button lightgrey" href="downloads/woopsi-demo-1.1.zip">Download DS Demo</a>
-				<a class="button lightgrey" href="downloads/woopsi-osx-1.0.zip">Download OSX Version</a>
+				<a class="button lightgrey" href="downloads/woopsi-osx-1.1.zip">Download OSX Version</a>
 			</div>
 			<div id="footer">
 				<? include("footer.php"); ?>
