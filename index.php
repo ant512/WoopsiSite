@@ -7,7 +7,7 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"></meta>
 		<script src="javascript/jquery-1.4.2.min.js"></script>
 		<script>
-			var news = "28/03/2011: Version 1.1 released!";
+			var news = "06/04/2011: Version 1.2 released!";
 
 			$(document).ready(function() {
 				if (news != "") {
@@ -27,9 +27,9 @@
 				</div>
 			</div>
 			<div id="content" class="download">
-				<a class="button lightgrey" href="downloads/woopsi-nds-1.1.zip">Download Woopsi</a>
-				<a class="button lightgrey" href="downloads/woopsi-demo-1.1.zip">Download DS Demo</a>
-				<a class="button lightgrey" href="downloads/woopsi-osx-1.1.zip">Download OSX Version</a>
+				<a class="button lightgrey" href="https://bitbucket.org/ant512/woopsi/downloads/woopsi-nds-1.2.zip">Download Woopsi</a>
+				<a class="button lightgrey" href="https://bitbucket.org/ant512/woopsi/downloads/woopsi-demo-1.2.zip">Download DS Demo</a>
+				<a class="button lightgrey" href="https://bitbucket.org/ant512/woopsisdlxcode/downloads/woopsi-osx1.2.zip">Download OSX Version</a>
 			</div>
 			<div id="footer">
 				<? include("footer.php"); ?>
