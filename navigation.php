@@ -1,7 +1,15 @@
+<?php
+$navLinks = array(
+	0 => array(0 => "docs/index.html", 1 => "Documentation"),
+	1 => array(0 => "screenshots.php", 1 => "Screenshots"),
+	2 => array(0 => "http://bitbucket.org/ant512/woopsi", 1 => "Source"),
+	3 => array(0 => "http://ant.simianzombie.com", 1 => "Blog")
+);
+?>
 					<ul>
-						<li><a href="docs/index.html">Documentation</a></li>
-						<li><a href="screenshots.php">Screenshots</a></li>
-						<li><a href="http://bitbucket.org/ant512/woopsi">Source</a></li>
-						<li><a href="http://ant.simianzombie.com">Blog</a></li>
-						<li><a href="http://ant.simianzombie.com/forum">Community</a></li>
+<?php
+foreach ($navLinks as $link) {
+	echo "						<li><a href=\"$link[0]\">$link[1]</a></li>\n";
+}
+?>
 					</ul>
