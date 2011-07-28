@@ -15,7 +15,6 @@ a {
 
 #top {
 	height: 250px;
-	
 	color: #fff;
 	background: #01077E;
 	background: -webkit-gradient(linear, left top, left bottom, from(#01077E), to(#0051EB));
@@ -36,6 +35,7 @@ a {
 
 #header ul {
 	text-align: center;
+	padding: 0px;
 }
 
 #header ul li {

@@ -7,7 +7,7 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"></meta>
 		<script src="javascript/jquery-1.4.2.min.js"></script>
 		<script>
-			var news = "21/07/2011: Version 1.3 released!";
+			var news = "";
 
 			$(document).ready(function() {
 				if (news != "") {
