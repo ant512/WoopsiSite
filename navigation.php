@@ -3,7 +3,7 @@ $navLinks = array(
 	0 => array(0 => "docs/index.html", 1 => "Documentation"),
 	1 => array(0 => "screenshots.php", 1 => "Screenshots"),
 	2 => array(0 => "http://bitbucket.org/ant512/woopsi", 1 => "Source"),
-	3 => array(0 => "http://ant.simianzombie.com", 1 => "Blog")
+	3 => array(0 => "http://simianzombie.com", 1 => "Blog")
 );
 ?>
 					<ul>
